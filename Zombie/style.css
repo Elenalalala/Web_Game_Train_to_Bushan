@@ -1,0 +1,99 @@
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Rock Salt', cursive;*
+font-family: 'Beth Ellen', cursive;
+font-family: 'Mr Bedfort', cursive;
+font-family: 'Special Elite', cursive;s*
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Ruslan Display', cursive;
+font-family: 'Hanalei Fill', cursive; */
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background-color:black;
+}
+#train{
+    
+    margin-top:-15.3vw;
+    position: absolute;
+    left:0px;
+    z-index:2;
+    animation-name:train;
+    animation-duration: 25s;
+}
+@keyframes train{
+    from{
+        left:-6vw;
+    }
+    to{
+        left:100vw;
+    }
+}
+h1{
+    font-size:6vw;
+    color:white;
+    font-family: 'Rock Salt', cursive;
+    text-align:center;
+    background-image: url("mountain1.jpg");
+    background-attachment:fixed;
+    margin-bottom:10vw;
+    border-bottom:solid white 3px;
+}
+h1:hover{
+    color:rgb(136, 0, 0);
+    border-bottom:solid rgb(136, 0, 0) 3px;
+}
+p{
+    display:block;
+    text-align:left;
+    margin:2.5%;
+    margin-left:30%;
+    margin-right:30%;
+    color:white;
+    font-size:1.27vw;
+    font-family: 'Special Elite', cursive;
+    line-height:2em;
+    letter-spacing: 0.2em;
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:red;
+}
+.option{
+    display:block;
+    margin:auto;
+    line-height:0;
+    text-align:center;
+    font-size: 2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-top:8vw;
+    margin-bottom:10vw;;
+}
+nav{
+    width:100%;
+    height:60vw;
+}
+.options{
+    display:block;
+    z-index:1;
+    margin-top:-8.5vw;
+    margin-left:30%;
+    margin-right:30%;
+}
+h2{
+    font-size:3vw;
+    color:white;
+    font-family: 'Rock Salt', cursive;
+    text-align:center;
+    margin-bottom:10vw;
+    margin:20vw;
+    border:dashed white 3px;
+}
